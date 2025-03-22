@@ -8,7 +8,12 @@ def find_gcd(number1, number2):
     return find_gcd(number1, number2)
 
 
-print('Нахождение НОД двух чисел.')
-number1 = int(input('Введите первое число: '))
-number2 = int(input('Введите Второе число: '))
-print(f'НОД({number1}, {number2}) = {find_gcd(number1, number2)}')
+def main():
+    print('Нахождение НОД двух чисел.')
+    number1 = int(input('Введите первое число: '))
+    number2 = int(input('Введите Второе число: '))
+    print(f'НОД({number1}, {number2}) = {find_gcd(number1, number2)}')
+
+
+if __name__ == '__main__':
+    main()    
